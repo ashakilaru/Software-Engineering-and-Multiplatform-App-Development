@@ -1,3 +1,4 @@
+// The code below will display my BioSketch @ UC, and it's amazing!!!!!
 
 import React from 'react';
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
@@ -7,7 +8,7 @@ export default function App() {
     <ScrollView contentContainerStyle={styles.container}>
       
       <Image
-        source={require('./assets/BioSketch Pic.png')}
+        source={require('./assests/asha.png')}
         style={styles.image}
       />
 
@@ -20,10 +21,10 @@ export default function App() {
       <Text style={styles.bio}>
         Hello everyone!
 
-        My name is [Your Name]. I am currently pursuing my Master’s in
+        My name is Asha Kilaru. I am currently pursuing my Master’s in
         Computer Science at the University of the Cumberlands.
 
-        Professionally, I work as a ServiceNow Developer where I design,
+        Professionally, I work as a Fullstack Java Developer where I design,
         develop, and implement solutions to improve IT operations and
         business workflows.
 
